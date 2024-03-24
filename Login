@@ -1,0 +1,7 @@
+print ("=== Login ===")
+username = input ("masukan Username : ")
+password = input ("masukan password : ")
+if password == "admin" :
+    print ("selamat datang di aplikasi")
+else :
+    print ("password salah, coba lagi!")
